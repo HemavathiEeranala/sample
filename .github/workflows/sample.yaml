@@ -1,8 +1,8 @@
 name: sample shell commands
 on: [push]
 jobs:
- samplejob:
- runs-on: ubuntu-latest
- steps:
- -name: intialization
-  run: echo "started the execution"
+  samplejob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: intialization
+        run: echo "started the execution"
